@@ -20,6 +20,7 @@ void DDA(int x1, int y1, int x2, int y2) {
     float y = y1;
 
     for(int i=0; i<=steps; i++) {
+        cout<<x<<" "<<y;
         putpixel(round(x), round(y), LIGHTCYAN);
         x += xInc;
         y +=yInc;
